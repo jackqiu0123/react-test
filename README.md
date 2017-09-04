@@ -1,3 +1,19 @@
+
+
+开发记录：
+9月3日晚 9点
+安装react，准备开发
+先期完成部分Item的工作，页面布局，以及Render
+
+9月4日晚 12点
+完成state部分逻辑
+
+目前还缺少state刷新选中总数的逻辑
+
+
+
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
 Below you will find some information on how to perform common tasks.<br>
@@ -2162,16 +2178,3 @@ To resolve this:
 ## Something Missing?
 
 If you have ideas for more “How To” recipes that should be on this page, [let us know](https://github.com/facebookincubator/create-react-app/issues) or [contribute some!](https://github.com/facebookincubator/create-react-app/edit/master/packages/react-scripts/template/README.md)
-
-
-
-
-开发记录：
-9月3日晚 9点
-安装react，准备开发
-先期完成部分Item的工作，页面布局，以及Render
-
-9月4日晚 12点
-完成state部分逻辑
-
-目前还缺少state刷新选中总数的逻辑
