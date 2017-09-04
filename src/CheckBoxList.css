@@ -1,0 +1,33 @@
+.CheckBox-list {
+    width:100%;
+    display: block;
+    overflow: auto;
+    /*box-sizing:content-box;*/
+    margin: 0 auto;
+}
+
+.CheckBox-item{
+    display: block;
+    /*width:100%;*/
+    margin: 0 auto;
+    overflow: hidden;
+
+}
+.CheckBox-item input{
+    float: left;
+}
+
+.CheckBox-item .name{
+    margin: 0 auto;
+    float: left;
+}
+
+.CheckBox-item .number{
+    margin: 0 auto;
+    float: right;
+    margin-right: 5px;
+}
+
+.secondary{
+    margin-left:10px;
+}
