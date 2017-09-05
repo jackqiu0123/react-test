@@ -17,7 +17,8 @@ class CheckBoxList extends Component {
 
     render() {
         return (<div>
-                <button className="clear-button " onClick={this.clear}>清除</button>
+                <p>招聘职位</p>
+                <button className="clear-button " onClick={this.clear}>清空</button>
                 <div className="clear"></div>
                 <div>{this.list(this.props.list)}</div>
                 </div>
