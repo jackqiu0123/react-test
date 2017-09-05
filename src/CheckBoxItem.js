@@ -19,18 +19,25 @@ class CheckBoxItem extends Component {
         );
     }
 
-    check(){
-        if(this.props.state){
-            return "checked";
-        }else{
-            return "";
-        }
-    }
 
 
     classNames(){
         let classNames = 'CheckBox-item';
-        classNames += this.props.id.indexOf("_") > -1 ? " secondary" : "";
+
+        if(this.props.parent === "-1"){
+            classNames += "";
+        }else{
+            if(this.props.hasOwnProperty("list")){
+                classNames += "";
+            }else{
+                classNames += " secondary";
+            }
+        }
+
+
+
+
+
         return classNames;
     }
 

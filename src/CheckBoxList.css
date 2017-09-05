@@ -1,5 +1,5 @@
 .CheckBox-list {
-    width:100%;
+    /*width:100%;*/
     display: block;
     overflow: auto;
     /*box-sizing:content-box;*/
@@ -7,6 +7,7 @@
 }
 
 .CheckBox-item{
+    position: relative;
     display: block;
     /*width:100%;*/
     margin: 0 auto;
@@ -18,6 +19,7 @@
 }
 
 .CheckBox-item .name{
+
     margin: 0 auto;
     float: left;
 }
@@ -31,3 +33,11 @@
 .secondary{
     margin-left:10px;
 }
+
+.clear-button{
+    position: relative;
+    display: block;
+    float:right;
+}
+
+.clear{ clear:both}
