@@ -12,7 +12,7 @@ class CheckBoxItem extends Component {
     render() {
         return (
             <div className={this.classNames()}>
-                <input type="checkbox" checked={this.props.state} onClick={this.click.bind(this)} ></input>
+                <input type="checkbox" checked={this.props.checked} onClick={this.click.bind(this)} ></input>
                 <p className="name">{this.props.name}</p>
                 <p className="number">{this.props.number}</p>
             </div>
@@ -27,17 +27,13 @@ class CheckBoxItem extends Component {
         if(this.props.parent === "-1"){
             classNames += "";
         }else{
-            if(this.props.hasOwnProperty("list")){
-                classNames += "";
-            }else{
-                classNames += " secondary";
-            }
+           if(this.props.parent.split("_").length == 1){
+               classNames += " secondary";
+           }else{
+               classNames += " thirddary";
+           }
+
         }
-
-
-
-
-
         return classNames;
     }
 
